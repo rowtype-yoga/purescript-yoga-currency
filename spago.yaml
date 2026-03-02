@@ -23,3 +23,6 @@ package:
       - aff
       - arrays
       - foldable-traversable
+workspace:
+  packageSet:
+    registry: 61.2.0
