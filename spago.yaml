@@ -1,0 +1,23 @@
+package:
+  name: yoga-currency
+  dependencies:
+    - prelude
+    - maybe
+    - yoga-json
+    - foreign
+    - control
+    - enums
+  test:
+    main: Test.Main
+    dependencies:
+      - spec
+      - spec-discovery
+      - spec-quickcheck
+      - quickcheck
+      - aff
+      - arrays
+      - foldable-traversable
+workspace:
+  packageSet:
+    registry: 61.2.0
+  extraPackages: {}
