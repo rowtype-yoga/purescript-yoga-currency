@@ -1,15 +1,15 @@
 {
   "workspace": {
     "packages": {
-      "iso4217": {
+      "yoga-currency": {
         "path": "./",
         "core": {
           "dependencies": [
-            "control",
             "enums",
             "foreign",
             "maybe",
             "prelude",
+            "transformers",
             "yoga-json"
           ],
           "build_plan": [

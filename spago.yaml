@@ -1,12 +1,18 @@
 package:
   name: yoga-currency
+  publish:
+    version: 1.0.0
+    license: MIT
+    location:
+      githubOwner: rowtype-yoga
+      githubRepo: purescript-yoga-currency
   dependencies:
-    - prelude
-    - maybe
-    - yoga-json
-    - foreign
-    - control
-    - enums
+    - enums: ">=6.0.1 <7.0.0"
+    - foreign: ">=7.0.0 <8.0.0"
+    - maybe: ">=6.0.0 <7.0.0"
+    - prelude: ">=6.0.1 <7.0.0"
+    - transformers: ">=6.1.0 <7.0.0"
+    - yoga-json: ">=5.1.0 <6.0.0"
   test:
     main: Test.Main
     dependencies:
